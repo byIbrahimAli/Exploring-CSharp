@@ -19,9 +19,8 @@ namespace Exploring_CSharp
         // The higher the index, the lower the comfort
         static float ComfortIndex(float temperatureFahrenheit, float humidityPercent)
         {
-            // Probably not a very reliable formula
-            var comfortIndex = (temperatureFahrenheit + humidityPercent) / 4;
-            return comfortIndex;
+            // Probably not a very reliable formula          
+            return (temperatureFahrenheit + humidityPercent) / 4;
         }
 
         static void Report(string location, float temperatureCelsius, float humidity)
