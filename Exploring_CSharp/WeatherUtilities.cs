@@ -16,8 +16,10 @@ namespace Exploring_CSharp
             return temperatureFahrenheit;
         }
 
+        // The higher the index, the lower the comfort
         static float ComfortIndex(float temperatureFahrenheit, float humidityPercent)
         {
+            // Probably not a very reliable formula
             var comfortIndex = (temperatureFahrenheit + humidityPercent) / 4;
             return comfortIndex;
         }
