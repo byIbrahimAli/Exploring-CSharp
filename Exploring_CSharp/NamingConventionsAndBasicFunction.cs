@@ -40,5 +40,8 @@ namespace Exploring_CSharp // Note: actual namespace depends on the project name
          *  }
          * 
          */
+
+        /// <summary>This is a <i>formatted</i> comment. Used to generate
+        /// documentation for classes and methods</summary>
     }
 }
