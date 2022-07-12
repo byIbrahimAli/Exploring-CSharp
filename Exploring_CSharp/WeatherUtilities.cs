@@ -24,7 +24,7 @@ namespace Exploring_CSharp
         static void Report(string location, float temperatureCelsius, float humidity)
         {
             var temperatureFahrenheit = CelsiusToFahrenheit(temperatureCelsius);
-            Console.WriteLine("Comfort Index for " + location + ": " + ComfortIndex(temperatureFahrenheit, humidity));
+            Console.WriteLine($"Comfort Index for {location}: {ComfortIndex(temperatureFahrenheit, humidity)}");
         }
     }
 }
