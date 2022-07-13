@@ -1,4 +1,8 @@
 ﻿using System;
+/**
+ * System is an important and most useful namespace in .NET
+ * Contains cool stuff like Console
+ */
 
 namespace Exploring_CSharp // Note: actual namespace depends on the project name.
 {
