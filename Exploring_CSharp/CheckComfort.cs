@@ -1,4 +1,5 @@
 ﻿using System;
+using WeatherUtilities = Pluralsight.MyUtilities.WeatherUtilities; // sets WeatherUtilities to point to namespace.class. Makes for easy reference in code
 
 namespace Pluralsight.MyFirstProgram
 {
@@ -6,7 +7,7 @@ namespace Pluralsight.MyFirstProgram
     {
         static void Main(string[] args)
         {
-            Pluralsight.MyUtilities.WeatherUtilities.Report("Bologna", 23, 65); // ~73 F
+            WeatherUtilities.Report("Bologna", 23, 65); // ~73 F
         }
     }
 }
