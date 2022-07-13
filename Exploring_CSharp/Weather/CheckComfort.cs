@@ -1,7 +1,7 @@
 ﻿using System;
 using WeatherUtilities = Pluralsight.MyUtilities.WeatherUtilities; // sets WeatherUtilities to point to namespace.class. Makes for easy reference in code
 
-namespace Pluralsight.MyFirstProgram
+namespace Pluralsight.MyUtilities
 {
     public class CheckComfort
     {

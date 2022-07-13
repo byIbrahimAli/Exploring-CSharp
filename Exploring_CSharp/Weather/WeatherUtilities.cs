@@ -15,7 +15,7 @@ namespace Pluralsight.MyUtilities
         }
 
         // The higher the index, the lower the comfort
-        static public float ComfortIndex(float temperatureFahrenheit, float humidityPercent)
+        static private float ComfortIndex(float temperatureFahrenheit, float humidityPercent)
         {
             // Probably not a very reliable formula          
             return (temperatureFahrenheit + humidityPercent) / 4;

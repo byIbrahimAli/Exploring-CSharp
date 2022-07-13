@@ -7,4 +7,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Weather\" />
+    <None Remove="GettingStarted\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Weather\" />
+    <Folder Include="GettingStarted\" />
+  </ItemGroup>
 </Project>
