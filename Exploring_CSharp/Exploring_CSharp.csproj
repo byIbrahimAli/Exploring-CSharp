@@ -10,9 +10,11 @@
   <ItemGroup>
     <None Remove="GettingStarted\" />
     <None Remove="GettingStarted\Weather\" />
+    <None Remove="ControllingProgramFlow\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="GettingStarted\" />
     <Folder Include="GettingStarted\Weather\" />
+    <Folder Include="ControllingProgramFlow\" />
   </ItemGroup>
 </Project>
