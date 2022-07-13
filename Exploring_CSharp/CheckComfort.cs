@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Exploring_CSharp
+namespace Pluralsight.MyFirstProgram
 {
     public class CheckComfort
     {
         static void Main(string[] args)
         {
-            WeatherUtilities.Report("Bologna", 23, 65); // ~73 F
+            Pluralsight.MyUtilities.WeatherUtilities.Report("Bologna", 23, 65); // ~73 F
         }
     }
 }
