@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Weather\" />
     <None Remove="GettingStarted\" />
+    <None Remove="GettingStarted\Weather\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Weather\" />
     <Folder Include="GettingStarted\" />
+    <Folder Include="GettingStarted\Weather\" />
   </ItemGroup>
 </Project>
