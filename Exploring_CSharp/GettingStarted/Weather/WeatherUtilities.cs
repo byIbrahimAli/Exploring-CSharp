@@ -1,6 +1,6 @@
 using System;
 
-namespace Pluralsight.MyUtilities
+namespace Pluralsight.GettingStarted.Weather
 {
     class WeatherUtilities
     {
