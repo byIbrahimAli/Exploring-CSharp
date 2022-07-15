@@ -11,10 +11,12 @@
     <None Remove="GettingStarted\" />
     <None Remove="GettingStarted\Weather\" />
     <None Remove="ControllingProgramFlow\" />
+    <None Remove="ControllingProgramFlow\CourseMaterial\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="GettingStarted\" />
     <Folder Include="GettingStarted\Weather\" />
     <Folder Include="ControllingProgramFlow\" />
+    <Folder Include="ControllingProgramFlow\CourseMaterial\" />
   </ItemGroup>
 </Project>
